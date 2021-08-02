@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "445935201757",
+    "firebase_url": "https://subastasboe-88ea1-default-rtdb.firebaseio.com",
+    "project_id": "subastasboe-88ea1",
+    "storage_bucket": "subastasboe-88ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445935201757:android:04aef02c48a6ddca545a34",
+        "android_client_info": {
+          "package_name": "com.jacc.subastas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445935201757-dif1utf2tfsjvskh91kt9b1gmv2klkk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU22oM5c0AFpK2Q1GWCBJaeqILbK9-wGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445935201757-dif1utf2tfsjvskh91kt9b1gmv2klkk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
