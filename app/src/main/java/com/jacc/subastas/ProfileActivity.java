@@ -21,6 +21,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private Button mButtonSignOut;
     private Button mButtonMostrarVehiculos;
+    private Button mButtonMostrarViviendas;
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabase;
 
@@ -34,6 +35,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         mButtonSignOut = (Button) findViewById(R.id.btnSiginout);
         mButtonMostrarVehiculos = (Button) findViewById(R.id.btnMostrarVehiculos);
+        mButtonMostrarViviendas = (Button) findViewById(R.id.btnMostrarViviendas);
 
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference();
@@ -53,6 +55,13 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ProfileActivity.this, MostrarArticuloCoche.class));
+            }
+        });
+
+        mButtonMostrarViviendas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfileActivity.this, MostrarArticuloVivienda.class));
             }
         });
 

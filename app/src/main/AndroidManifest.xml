@@ -13,6 +13,9 @@
             android:name=".MostrarArticuloCoche"
             android:exported="true" />
         <activity
+            android:name=".MostrarArticuloVivienda"
+            android:exported="true" />
+        <activity
             android:name=".ProfileActivity"
             android:exported="true" />
         <activity

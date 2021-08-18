@@ -44,4 +44,13 @@
         android:background="@color/common_google_signin_btn_text_dark_default"
         />
 
+    <Button
+        android:id="@+id/btnMostrarViviendas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Viviendas Subastadas"
+        android:layout_margin="20dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        />
+
 </LinearLayout>

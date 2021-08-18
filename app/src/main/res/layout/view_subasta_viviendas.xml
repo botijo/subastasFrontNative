@@ -7,7 +7,7 @@
     >
 
     <TextView
-        android:id="@+id/textViewTipoBien"
+        android:id="@+id/textViewVTipoBien"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="17sp"
@@ -15,7 +15,7 @@
         />
 
     <TextView
-        android:id="@+id/textViewIdSubasta"
+        android:id="@+id/textViewVIdSubasta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="17sp"
@@ -24,7 +24,7 @@
         />
 
     <TextView
-        android:id="@+id/textViewTipoFinca"
+        android:id="@+id/textViewVTipoFinca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="17sp"
@@ -32,18 +32,53 @@
         android:text="Información sobre el bien"
         />
 
+
     <TextView
-        android:id="@+id/textViewFechaFin"
+        android:id="@+id/textViewVFechaFin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="17sp"
         android:layout_marginTop="15dp"
         android:text="Fecha Fin Subasta"
         />
+    <TextView
+        android:id="@+id/textViewVHoraFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Hora Fin Subasta"
+        />
+    <TextView
+        android:id="@+id/textViewVExpediente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Expediente Subasta"
+        />
+
+    <TextView
+        android:id="@+id/textViewVLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Lugar de la Subasta"
+        />
+
+    <TextView
+        android:id="@+id/textViewVubicacionCasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Ubicacion Vivienda Subasta"
+        />
 
 
     <TextView
-        android:id="@+id/textViewUrl"
+        android:id="@+id/textViewVUrl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="17sp"
@@ -59,6 +94,5 @@
         android:layout_marginTop="15dp"
         android:background="#94E4EC"
         />
-
 
 </LinearLayout>
