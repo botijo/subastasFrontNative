@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:id="@+id/textViewTipoBien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="Vehiculo"
+        />
+
+    <TextView
+        android:id="@+id/textViewIdSubasta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Id Subasta"
+        />
+
+    <TextView
+        android:id="@+id/textViewTipoFinca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Información sobre el bien"
+        />
+
+    <TextView
+        android:id="@+id/textViewFechaFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Fecha Fin Subasta"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:text="Url Subasta"
+        android:linksClickable="true"
+        />
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Ver más información"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:background="@color/common_google_signin_btn_text_dark_default"-->
+<!--        />-->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#222222" />
+
+
+</LinearLayout>

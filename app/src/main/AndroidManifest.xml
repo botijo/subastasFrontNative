@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Subastas">
         <activity
+            android:name=".MostrarArticuloCoche"
+            android:exported="true" />
+        <activity
             android:name=".ProfileActivity"
             android:exported="true" />
         <activity

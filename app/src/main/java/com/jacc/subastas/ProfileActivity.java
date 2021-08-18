@@ -20,6 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileActivity extends AppCompatActivity {
 
     private Button mButtonSignOut;
+    private Button mButtonMostrarVehiculos;
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabase;
 
@@ -32,6 +33,8 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         mButtonSignOut = (Button) findViewById(R.id.btnSiginout);
+        mButtonMostrarVehiculos = (Button) findViewById(R.id.btnMostrarVehiculos);
+
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference();
         mTextViewEmail = (TextView) findViewById(R.id.textViewEmail);
@@ -43,6 +46,13 @@ public class ProfileActivity extends AppCompatActivity {
                 mAuth.signOut();
                 startActivity(new Intent( ProfileActivity.this, MainActivity.class));
                 finish();
+            }
+        });
+
+        mButtonMostrarVehiculos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfileActivity.this, MostrarArticuloCoche.class));
             }
         });
 

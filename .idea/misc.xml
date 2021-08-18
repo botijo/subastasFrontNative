@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/DESKTOP-BOTY/AndroidStudioProjects/subastas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DESKTOP-BOTY/AndroidStudioProjects/subastas/app/src/main/res/layout/activity_mostrar_articulo_coche.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/DESKTOP-BOTY/AndroidStudioProjects/subastas/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/DESKTOP-BOTY/AndroidStudioProjects/subastas/app/src/main/res/layout/view_subasta_coches.xml" value="0.35260416666666666" />
       </map>
     </option>
   </component>
